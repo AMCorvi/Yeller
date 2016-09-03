@@ -23,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/AMCorvi/Yeller/issues"
   },
-  "homepage": "https://github.com/AMCorvi/Yeller#readme"
+  "homepage": "https://github.com/AMCorvi/Yeller#readme",
+  "dependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+  },
+  "devDependencies": {
+    "gulp-webserver": "^0.9.1"
+  }
 }
