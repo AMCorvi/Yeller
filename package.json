@@ -1,0 +1,27 @@
+{
+  "name": "yeller",
+  "version": "0.0.0",
+  "description": "An application design to demonstrate and perform some javascript and jquery skills and techniques.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMCorvi/Yeller.git"
+  },
+  "keywords": [
+    "jquery",
+    "javascript",
+    "inputs",
+    "crud",
+    "foundation",
+    "jquery-UI"
+  ],
+  "author": "AMCorvi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMCorvi/Yeller/issues"
+  },
+  "homepage": "https://github.com/AMCorvi/Yeller#readme"
+}
