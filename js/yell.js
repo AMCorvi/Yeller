@@ -7,7 +7,7 @@ $(function() {
     var resetYell = $('.yellbox').val("");
 
       // add input content to list on click
-      $('ul').append( "<li>" + yellVal + "</li>" )
+      $('ul').prepend( "<li>" + yellVal + "</li>" )
       //clear input field
       (resetYell)
 
