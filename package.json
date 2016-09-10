@@ -2,7 +2,22 @@
   "name": "yeller",
   "version": "0.0.0",
   "description": "An application design to demonstrate and perform some javascript and jquery skills and techniques.",
-  "main": "index.js",
+  "main": "js/yell.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,24 +28,14 @@
   "keywords": [
     "jquery",
     "javascript",
-    "inputs",
-    "crud",
+    "bootstrap",
     "foundation",
-    "jquery-UI"
+    "jquery-ui"
   ],
   "author": "AMCorvi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AMCorvi/Yeller/issues"
   },
-  "homepage": "https://github.com/AMCorvi/Yeller#readme",
-  "dependencies": {
-    "gulp-concat": "^2.6.0",
-    "gulp-sass": "^2.3.2",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-util": "^3.0.7",
-  },
-  "devDependencies": {
-    "gulp-webserver": "^0.9.1"
-  }
+  "homepage": "https://github.com/AMCorvi/Yeller#readme"
 }

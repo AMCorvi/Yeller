@@ -1,19 +1,11 @@
 body {
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
-.container{
+.container {
   padding: 1em;
   margin: 4em;
   margin-bottom: 2em;
-  font-size: 1.2em;
-}
-
-
-#advice {
-
-
-}
+  font-size: 1.2em; }
 
 input {
   width: 70%;
@@ -22,16 +14,13 @@ input {
   text-align: center;
   background-color: #d9d9d9;
   border-color: transparent;
-  //box-shadow: 0px 3px 40px -20px black;
-  transition: background-color 2s, border-bottom-color 4s;
-}
+  transition: background-color 2s, border-bottom-color 4s; }
 
-input:focus{
+input:focus {
   background-color: transparent;
   border-bottom-color: red;
   box-shadow: none;
-  outline: none;
-}
+  outline: none; }
 
 .yellbutton {
   color: orangered;
@@ -44,36 +33,22 @@ input:focus{
   border-color: transparent;
   border-width: 1px;
   border-radius: 4px;
-
-  transition: background-color 3s, color 2s;
-
-}
+  transition: background-color 3s, color 2s; }
 
 .yellbutton:hover {
   color: white;
   background-color: red;
   cursor: pointer;
-  transition: background-color 2s, color 3s;
-
-}
-
+  transition: background-color 2s, color 3s; }
 
 section {
-    margin-top: 5em;
-
-  ul  {
-  list-style-type: none;
-
-
-}
-
-  li {
+  margin-top: 5em; }
+  section ul {
+    list-style-type: none; }
+  section li {
     padding: 5px;
     padding-left: 15 px;
     margin-bottom: .4em;
-   font-family: sans-serif;
-   font-size: 1.8em;
-    border-left: 2px solid orangered;
- }
-
-}
+    font-family: sans-serif;
+    font-size: 1.8em;
+    border-left: 2px solid orangered; }
