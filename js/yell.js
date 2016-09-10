@@ -1,17 +1,17 @@
 $(function() {
 
-    $('.yellbox').blink('slow');
 
-    // $('.yellbutton').on('click', function() {
-    //     var $thoughtValue = $('input').val();
-    //     var spoken = '<li>' + thoughtValue + '</li>';
-    //
-    //     if( $thoughtValue !== $('.yellbox'.val('')  ){
-    //         $('.posts').append(spoken);
-    //       } else { $('#advise').showToggle(50000) }
-    //
-    //     $('.yellbox').val('')
-    // });
+
+    $('.yellbutton').on('click', function(){
+    var yellVal = $('.yellbox').val();
+    var resetYell = $('.yellbox').val("");
+
+      // add input content to list on click
+      $('ul').append( "<li>" + yellVal + "</li>" )
+      //clear input field
+      (resetYell)
+
+    })
 
 // end of document ready function...
 })
