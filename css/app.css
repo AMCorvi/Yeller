@@ -89,5 +89,22 @@ input:focus {
     font-family: sans-serif;
     font-size: 1.8em;
     border-left: 2px solid orangered; }
+    .container.ul li button {
+      position: relative;
+      bottom: 11px;
+      display: none;
+      width: 30px;
+      height: 30px;
+      font-size: .3em;
+      text-align: center;
+      color: navajowhite;
+      background-color: #0C2352;
+      border: 2px groove red;
+      outline: none;
+      border-radius: 40px; }
+    .container.ul li:hover button {
+      display: inline; }
+    .container.ul li:hover button:hover {
+      border: 1px ridge lime; }
 
 /*# sourceMappingURL=app.css.map */
