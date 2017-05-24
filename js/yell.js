@@ -1,17 +1,24 @@
 $(function() {
 
 
+    var yell = function(event){
+        var yellVal = $('.yellbox').val();
 
-    $('.yellbutton').on('click', function(){
-    var yellVal = $('.yellbox').val();
-    var resetYell = $('.yellbox').val("");
+        if( yellVal !== "" && (event.which === 13 || event.type === 'click')){
+           
+          // add input content to list on click
+          $('ul').prepend( "<li>" + yellVal + "</li>" )
+          //clear input field
+          return $('.yellbox').val("");
 
-      // add input content to list on click
-      $('ul').prepend( "<li>" + yellVal + "</li>" )
-      //clear input field
-      (resetYell)
 
-    })
+        }
+
+
+    }
+
+    $('.yellbutton').on('click', yell )
+    $(".yellbox").on('keydown', yell)
 
 // end of document ready function...
 })
