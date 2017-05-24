@@ -1,5 +1,31 @@
+@keyframes advisory {
+
+    0% {
+            color: black;
+            transform: scale(1);
+    }
+
+    50% {
+            color: red;
+            transform: scale(1.4);
+    }
+
+    100% {
+            color: black;
+            transform: scale(1);
+    }
+
+}
+
 body {
+  background-color: navajowhite;
   font-family: sans-serif;
+  color: #0C2352;
+
+}
+
+h1 {
+    color: #0C2352;
 }
 
 .container{
@@ -11,8 +37,18 @@ body {
 
 
 #advice {
+    animation-name: advisory;
+    animation-duration: 1s;
+    animation-iteration-count: 2 ; 
+    animation-timing-function: ease ; 
+    display: none;
+    font-size: .7em;
+    text-align: center;
 
-
+    a, a:visited {
+    color: lightblue;
+    text-decoration: none;
+   }
 }
 
 input {
@@ -23,7 +59,7 @@ input {
   background-color: #d9d9d9;
   border-color: transparent;
   //box-shadow: 0px 3px 40px -20px black;
-  transition: background-color 2s, border-bottom-color 4s;
+  transition: background-color 1s, border-bottom-color 2s;
 }
 
 input:focus{
@@ -45,7 +81,7 @@ input:focus{
   border-width: 1px;
   border-radius: 4px;
 
-  transition: background-color 3s, color 2s;
+  transition: background-color 2s, color 1s;
 
 }
 
@@ -58,16 +94,32 @@ input:focus{
 }
 
 
-section {
-    margin-top: 5em;
+.container.ul{
+    height: 40vh;
+    // background-color: blue;
+
+  #fader {
+      // display: none;
+      margin: 0px;
+      position: absolute;
+      width: 100%;
+      height: 30%;
+      top: 550px;
+      box-shadow: inset 0px -190px 150px 0px navajowhite;
+      // background-color: transparentize( red, .5);
+
+  }
 
   ul  {
   list-style-type: none;
+  height: 100%;
+  overflow-y: scroll;
 
 
 }
 
   li {
+      overflow: scroll;
     padding: 5px;
     padding-left: 15 px;
     margin-bottom: .4em;
